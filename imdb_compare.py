@@ -30,8 +30,8 @@ ids1 = q.findall(queryhtmldata1)
 ids2 = q.findall(queryhtmldata2)
 
 
-show1id = ids1[1][9:-1]
-show2id = ids2[1][9:-1]
+show1id = ids1[3][9:-1]
+show2id = ids2[3][9:-1]
 
 
 url1 = 'http://www.imdb.com/title/' + show1id + '/fullcredits?ref_=tt_cl_sm#cast'
